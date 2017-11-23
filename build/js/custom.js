@@ -5536,7 +5536,8 @@ function init_echarts() {
 
 $(document).ready(function () {
 
-	init_sparklines();
+	init_sidebar();
+	/*init_sparklines();
 	init_flot_chart();
 	init_sidebar();
 	init_wysiwyg();
@@ -5569,6 +5570,6 @@ $(document).ready(function () {
 	init_compose();
 	init_CustomNotification();
 	init_autosize();
-	init_autocomplete();
+	init_autocomplete();*/
 
 });
