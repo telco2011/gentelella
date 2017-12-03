@@ -58,3 +58,6 @@ gulp.task('watch', function() {
 
 // Default Task
 gulp.task('default', ['browser-sync', 'watch']);
+
+// Build resources
+gulp.task('build', ['scripts', 'sass', 'sass-minify']);
