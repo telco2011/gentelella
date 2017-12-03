@@ -60,4 +60,4 @@ gulp.task('watch', function() {
 gulp.task('default', ['browser-sync', 'watch']);
 
 // Build resources
-gulp.task('build', ['scripts', 'sass', 'sass-minify']);
+gulp.task('build', ['sass', 'sass-minify']);
